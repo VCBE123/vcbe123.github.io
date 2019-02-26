@@ -34,15 +34,15 @@ disqus:
   categories: [blog, project] # only show disqus for posts that have these categories
 
 # if you don't have any of social below, comment the line
-facebook: myfacebook
-twitter: mytwitter
+#facebook: myfacebook
+twitter: WendellPhilips
 # google: mygoogle
 # instagram: myinstagram
 # pinterest: mypinterest
 # linkedin: mylinkedin
 # youtube: myyoutube
 # spotify: myspotify
-github: mygithub
+github: VCBE123
 # gitlab: mygitlab
 # lastfm: mylastfm
 # stackoverflow: 7044681/mystackoverflow
@@ -66,9 +66,11 @@ authors:
         external-image: false
         picture: assets/images/james.jpg
         twitter: jamesfoster
-    wendell philips:
+    wendellphilips:
         name: Wendell Philips
         bio: A Man who studies with curiosity
+        external-image: false
+        picture: assets/images/avatar.jpg
 
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
@@ -99,7 +101,7 @@ related: true
 post-advance-links: [blog]
 
 # show author block at the end of a post ?
-show-author: true
+show-author: false
 
 # do you want some animations?
 animation: true
