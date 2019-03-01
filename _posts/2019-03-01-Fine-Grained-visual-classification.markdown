@@ -3,7 +3,7 @@ title: "See better before looking closer"
 layout: post
 date: 2019-03-01 22:10
 tag: FGVC
-image:https://github.com/VCBE123/vcbe123.github.io/blob/master/assets/images/avatar.png
+image: https://github.com/VCBE123/vcbe123.github.io/blob/master/assets/images/avatar.png
 headerImage: true
 projects: false
 hidden: false # don't count this post in blog pagination
