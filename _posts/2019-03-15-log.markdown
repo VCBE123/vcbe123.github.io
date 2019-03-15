@@ -1,4 +1,17 @@
-# 2019-03-14
+---
+title: "Data Preprocess"
+layout: post
+date: 2019-03-15 12:12
+image: /assets/images/test.png
+headerImage: false
+tag: logs
+star: false
+category: blog
+author: wendell 
+description:  to record the projects
+---
+
+# 2019-03-15
 
 TODO List
 

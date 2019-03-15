@@ -2,7 +2,6 @@
 title: "TODo lists"
 layout: post
 date: 2019-03-14 12:12
-image: /assets/images/test.png
 headerImage: false
 tag: logs
 star: false
