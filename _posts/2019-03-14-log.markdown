@@ -6,6 +6,7 @@ headerImage: false
 tag: logs
 star: false
 category: blog
+hidden: true
 author: wendell 
 description:  to record the porjects
 ---

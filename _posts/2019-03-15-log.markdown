@@ -6,6 +6,7 @@ image: /assets/images/test.png
 headerImage: false
 tag: logs
 star: false
+hidden: true
 category: blog
 author: wendell 
 description:  to record the projects
