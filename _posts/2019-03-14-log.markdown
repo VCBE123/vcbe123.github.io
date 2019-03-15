@@ -1,0 +1,46 @@
+---
+title: "TODo lists"
+layout: post
+date: 2019-03-14 12:12
+image: /assets/images/test.png
+headerImage: false
+tag: logs
+star: false
+category: blog
+author: wendell 
+description:  to record the porjects
+---
+
+# 2019-03-14
+
+TODO List
+
+- [ ] Weak supervision + Bi-LSTM
+
+- [ ] Band-pass filter + Classification
+- [ ] Deep supervision ( Mask ) +CL-CE1 classification
+- [ ]  Base Line  (Default setting  ImageNet ) +ResNet18 
+- [ ] Class Specified Loss & Rank Loss
+
+
+弱监督+框+双向LSTM：
+受最近几篇论文的启发，将提取图片的不同区域特征作为辅助信息，通过循环神经网络融合信息提高分类准确率。
+把主图片的特征和局部特征叠成序列，通过多损失函数进行监督。
+
+带通滤波器分类：
+将之前的分类经验进一步延申，通过同时抑制背景区域响应和高响应区域，加大部分非主要区域的权重，提高分类的性能。
+同时引入两个可学习的变量，可以避免设固定阈值的局限性
+
+深监督分类CL和CE1:
+利用已有的标注，将弱监督问题转化为深监督问题。通过分割辅助任务提取更丰富的信息，让网络关注囊壁区域，提高分类任务的准确度。
+只在CL和CE1上做实验可以排除数据不均衡等问题的干扰。此前曾做过简单的尝试
+
+Base-Line:
+通过按照默认的网络结构和参数训练得到基线结果控制实验变量，同时结果比较更容易得到认可。使得结果评估更为准确
+
+基于类别的损失函数：
+根据以前的分析，各类别之间总存在着相互混淆的情况，这也导致分类的性能一直提不上去。最近的分析发现交叉熵损失函数可能不
+太适用于此类问题。尝试从理论推导和实验验证上找到更合适的损失函数。
+
+
+

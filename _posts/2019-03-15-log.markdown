@@ -1,0 +1,36 @@
+# 2019-03-14
+
+TODO List
+
+- [ ] Weak supervision + Bi-LSTM
+- [ ] Band-pass filter + Classification
+- [ ] Deep supervision ( Mask ) +CL-CE1 classification
+- [ ] Base Line  (Default setting  ImageNet ) +ResNet18 
+- [ ] Class Specified Loss & Rank Loss
+
+
+
+--------------------------------------------------------------------------------------------------------------------------------------
+
+- [x] resize and pad to 224 X 224 
+
+- [ ]  train Resnet 18 baseline:
+
+- [x] prepare data for tfRecord
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
+|    Experiment     | Image Preprocessing                                          | Batch-Size | LR   | LR-drop | GPUs | 5 epochs mean F1 | 5 epochs mean accuracy | SGD optimizer                      |
+| :---------------: | ------------------------------------------------------------ | ---------- | ---- | ------- | ---- | ---------------- | ---------------------- | ---------------------------------- |
+| Resnet18 baseline | Resize Padding to 224X224  ImageNet+ -resize to 250 rand cop  224X224 RandomHorizontalFlip | 40         | 1e-3 | 20,30   | 4    |                  |                        | momentum 0.90    weight_decay 1e-4 |
+|                   |                                                              |            |      |         |      |                  |                        |                                    |
+|                   |                                                              |            |      |         |      |                  |                        |                                    |
+|                   |                                                              |            |      |         |      |                  |                        |                                    |
+|                   |                                                              |            |      |         |      |                  |                        |                                    |
+|                   |                                                              |            |      |         |      |                  |                        |                                    |
+|                   |                                                              |            |      |         |      |                  |                        |                                    |
+|                   |                                                              |            |      |         |      |                  |                        |                                    |
+
+
+
+  
