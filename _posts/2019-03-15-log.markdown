@@ -16,10 +16,10 @@ description:  to record the projects
 
 TODO List
 
-- [ ] Weak supervision + Bi-LSTM
+- [x] Weak supervision + Bi-LSTM
 - [ ] Band-pass filter + Classification
 - [ ] Deep supervision ( Mask ) +CL-CE1 classification
-- [ ] Base Line  (Default setting  ImageNet ) +ResNet18 
+- [x] Base Line  (Default setting  ImageNet ) +ResNet18 
 - [ ] Class Specified Loss & Rank Loss
 
 
@@ -27,10 +27,12 @@ TODO List
 --------------------------------------------------------------------------------------------------------------------------------------
 
 - [x] resize and pad to 224 X 224 
-
-- [ ]  train Resnet 18 baseline:
-
+- [x] train Resnet 18 baseline:
 - [x] prepare data for tfRecord
+- [x] Prepare 331X331 data 
+- [ ] Prepare CUB200
+- [ ] Prepare Car
+- [ ] Prepare hymenoptera
 
 -------------------------------------------------------------------------------------------------------------------------------------
 
